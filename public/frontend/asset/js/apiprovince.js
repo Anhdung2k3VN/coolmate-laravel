@@ -1,3 +1,4 @@
+// Lấy dữ liệu tỉnh thành, quận huyện, xã phường từ API Goong
 document.addEventListener("DOMContentLoaded", function () {
     const apiKey = "OI4ewRcZNGsj7r04iH5wPmcJKalFjU9FMi7mvdL1";
     const addressInput = document.getElementById("address");

@@ -54,7 +54,7 @@ Route::get('/category/aolen', [FrontendController::class, 'aolen']);
 Route::get('/category/aopolo', [FrontendController::class, 'aopolo']);
 Route::get('/product/{id}', [FrontendController::class, 'product']);
 
-
+Route::get('/cart/view', [FrontendController::class, 'cart_view']);
 Route::get('/cart', [FrontendController::class, 'cart']);
 Route::get('/oder/confirm', function () {
     return view('oder.confirm');

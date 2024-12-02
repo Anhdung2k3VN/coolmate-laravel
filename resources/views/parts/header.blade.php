@@ -24,7 +24,7 @@
             </form>
         </div>
         <div class="header-cart">
-            <a href="cart.html">
+            <a href="/cart">
                 <i class="ri-shopping-cart-line" number="0"></i>
             </a>
         </div>

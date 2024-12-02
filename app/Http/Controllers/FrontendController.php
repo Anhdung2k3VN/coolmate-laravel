@@ -63,6 +63,10 @@ class FrontendController extends Controller
         }
     }
 
+    public function cart_view()
+    {
+        return view('cart');
+    }
     public function cart()
     {
         $cart = Session::get('cart');

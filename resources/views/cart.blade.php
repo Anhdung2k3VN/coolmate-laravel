@@ -117,7 +117,7 @@
 </form>
 
 @endsection
-
+<script type="module" src="{{asset('frontend/asset/js/apiprovince.js')}}"></script>
 
 <!-- <script>
     const output = `Tỉnh: ${data.tinh}, Quận: ${data.quan}, Phường: ${data.phuong}`;
